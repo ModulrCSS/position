@@ -1,0 +1,214 @@
+/*
+  @about Modulr.css
+  -----------------------------------------
+  @desc: Pure Css Position Module
+  @author: Alan Museljic
+  @git: https://github.com/ModulrCSS/position
+  @source: http://www.getmodulr.com/css/position
+  ------------------------------------------------
+  @uses: modulr/position/*
+\-------------------------------------------------*/
+
+/* 
+  @modifier: pull-left
+  @property: float
+  @desc: floats an element to the left
+*/
+
+.pull--left,
+.float--left{
+  float: left;
+}
+
+/* 
+  @modifier: pull-left-important
+  @property: float
+  @desc: floats an element to the left !important
+*/
+
+.pull--left-important,
+.float--left-important{
+  float: left !important;
+}
+
+/* 
+  @modifier: pull-right
+  @property: float
+  @desc: floats an element to the right
+*/
+
+.pull--right,
+.float--right{
+  float: right;
+}
+
+/* 
+  @modifier: pull-right-important
+  @property: float
+  @desc: floats an element to the right !important
+*/
+
+.pull--right-important,
+.float--right-important{
+  float: right !important;
+}
+
+/* 
+  @modifier: center
+  @property: margin
+  @desc: centers an element
+*/
+
+.center {
+  float: none;
+  margin: 0 auto;
+}
+
+/* 
+  @modifier: static
+  @property: position
+  @desc: adds static position to an element
+*/
+
+.position--static{
+  position: static;
+}
+
+/* 
+  @modifier: relative
+  @property: position
+  @desc: adds relative position to an element
+*/
+
+.position--relative{
+  position: relative;
+}
+
+/* 
+  @modifier: absolute
+  @property: position
+  @desc: adds absolute position to an element
+*/
+
+.position--absolute{
+  position: absolute;
+}
+
+/* 
+  @modifier: absolute-top
+  @property: position
+  @desc: adds absolute top position to an element
+*/
+
+.position--absolute-top{
+  position: absolute;
+  top: 0;
+}
+
+/* 
+  @modifier: absolute-right
+  @property: position
+  @desc: adds absolute right position to an element
+*/
+
+.position--absolute-right{
+  position: absolute;
+  right: 0;
+}
+
+/* 
+  @modifier: absolute-bottom
+  @property: position
+  @desc: adds absolute bottom position to an element
+*/
+
+.position--absolute-bottom{
+  position: absolute;
+  bottom: 0;
+}
+
+/* 
+  @modifier: fixed
+  @property: position
+  @desc: adds fixed position an element
+*/
+
+.position--fixed{
+  position: fixed;
+}
+
+/* 
+  @modifier: fixed-all
+  @property: position
+  @desc: adds fixed all position an element
+*/
+
+.position--fixed-all {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1000;
+  transform: translateZ(0);
+}
+
+/* 
+  @modifier: fixed-top
+  @property: position
+  @desc: adds fixed top position an element
+*/
+
+.position--fixed-top{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  transform: translateZ(0);
+}
+
+/* 
+  @modifier: fixed-bottom
+  @property: position
+  @desc: adds fixed bottom position an element
+*/
+
+.position--fixed-bottom{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1000;
+  transform: translateZ(0);
+}
+
+/* 
+  @modifier: fixed-left
+  @property: position
+  @desc: adds fixed left position an element
+*/
+
+.position--fixed-left{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  transform: translateZ(0);
+}
+
+/* 
+  @modifier: fixed-right
+  @property: position
+  @desc: adds fixed right position an element
+*/
+
+.position--fixed-right{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1000;
+  transform: translateZ(0);
+}

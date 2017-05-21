@@ -1,0 +1,540 @@
+/* extra large size */
+
+@media (min-width: 1920px){
+
+  
+  /* -- screen xs - position -- */
+
+  [mod-if-screen-xl~="position-left"]{
+    float: left;
+  }
+  [mod-if-screen-xl~="position-important-left"]{
+    float: left !important;
+  }
+  [mod-if-screen-xl~="position-right"]{
+    float: right;
+  }
+  [mod-if-screen-xl~="position-important-right"]{
+    float: right !important;
+  }
+  [mod-if-screen-xl~="position-center"] {
+    float: none;
+    margin: 0 auto;
+  }
+  [mod-if-screen-xl~="position-static"]{
+    position: static;
+  }
+  [mod-if-screen-xl~="position-relative"]{
+    position: relative;
+  }
+  [mod-if-screen-xl~="position-absolute"]{
+    position: absolute;
+  }
+  [mod-if-screen-xl~="position-absolute-top"]{
+    position: absolute;
+    top: 0;
+  }
+  [mod-if-screen-xl~="position-absolute-right"]{
+    position: absolute;
+    right: 0;
+  }
+  [mod-if-screen-xl~="position-absolute-bottom"]{
+    position: absolute;
+    bottom: 0;
+  }
+  [mod-if-screen-xl~="position-fixed"]{
+    position: fixed;
+  }
+  [mod-if-screen-xl~="position-fixed-all"]{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    transform: translateZ(0);
+  }
+  [mod-if-screen-xl~="position-fixed-top"]{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    transform: translateZ(0);
+  }
+  [mod-if-screen-xl~="position-fixed-bottom"]{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    transform: translateZ(0);
+  }
+  [mod-if-screen-xl~="position-fixed-left"]{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    transform: translateZ(0);
+  }
+  [mod-if-screen-xl~="position-fixed-right"]{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    transform: translateZ(0);
+  }
+
+}
+
+/* large size */
+
+@media (max-width: 1920px){
+ 
+  /* -- screen xs - position -- */
+
+  [mod-if-screen-lg~="position-left"]{
+    float: left;
+  }
+  [mod-if-screen-lg~="position-important-left"]{
+    float: left !important;
+  }
+  [mod-if-screen-lg~="position-right"]{
+    float: right;
+  }
+  [mod-if-screen-lg~="position-important-right"]{
+    float: right !important;
+  }
+  [mod-if-screen-lg~="position-center"] {
+    float: none;
+    margin: 0 auto;
+  }
+  [mod-if-screen-lg~="position-static"]{
+    position: static;
+  }
+  [mod-if-screen-lg~="position-relative"]{
+    position: relative;
+  }
+  [mod-if-screen-lg~="position-absolute"]{
+    position: absolute;
+  }
+  [mod-if-screen-lg~="position-absolute-top"]{
+    position: absolute;
+    top: 0;
+  }
+  [mod-if-screen-lg~="position-absolute-right"]{
+    position: absolute;
+    right: 0;
+  }
+  [mod-if-screen-lg~="position-absolute-bottom"]{
+    position: absolute;
+    bottom: 0;
+  }
+  [mod-if-screen-lg~="position-fixed"]{
+    position: fixed;
+  }
+  [mod-if-screen-lg~="position-fixed-all"]{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    transform: translateZ(0);
+  }
+  [mod-if-screen-lg~="position-fixed-top"]{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    transform: translateZ(0);
+  }
+  [mod-if-screen-lg~="position-fixed-bottom"]{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    transform: translateZ(0);
+  }
+  [mod-if-screen-lg~="position-fixed-left"]{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    transform: translateZ(0);
+  }
+  [mod-if-screen-lg~="position-fixed-right"]{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    transform: translateZ(0);
+  }
+
+}
+
+/* medium size */
+
+@media (max-width: 1280px){
+  
+  /* -- screen xs - position -- */
+
+  [mod-if-screen-md~="position-left"]{
+    float: left;
+  }
+  [mod-if-screen-md~="position-important-left"]{
+    float: left !important;
+  }
+  [mod-if-screen-md~="position-right"]{
+    float: right;
+  }
+  [mod-if-screen-md~="position-important-right"]{
+    float: right !important;
+  }
+  [mod-if-screen-md~="position-center"] {
+    float: none;
+    margin: 0 auto;
+  }
+  [mod-if-screen-md~="position-static"]{
+    position: static;
+  }
+  [mod-if-screen-md~="position-relative"]{
+    position: relative;
+  }
+  [mod-if-screen-md~="position-absolute"]{
+    position: absolute;
+  }
+  [mod-if-screen-md~="position-absolute-top"]{
+    position: absolute;
+    top: 0;
+  }
+  [mod-if-screen-md~="position-absolute-right"]{
+    position: absolute;
+    right: 0;
+  }
+  [mod-if-screen-md~="position-absolute-bottom"]{
+    position: absolute;
+    bottom: 0;
+  }
+  [mod-if-screen-md~="position-fixed"]{
+    position: fixed;
+  }
+  [mod-if-screen-md~="position-fixed-all"]{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    transform: translateZ(0);
+  }
+  [mod-if-screen-md~="position-fixed-top"]{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    transform: translateZ(0);
+  }
+  [mod-if-screen-md~="position-fixed-bottom"]{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    transform: translateZ(0);
+  }
+  [mod-if-screen-md~="position-fixed-left"]{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    transform: translateZ(0);
+  }
+  [mod-if-screen-md~="position-fixed-right"]{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    transform: translateZ(0);
+  }
+
+}
+
+/* small size */
+
+@media (max-width: 960px){
+  
+  /* -- screen xs - position -- */
+
+  [mod-if-screen-sm~="position-left"]{
+    float: left;
+  }
+  [mod-if-screen-sm~="position-important-left"]{
+    float: left !important;
+  }
+  [mod-if-screen-sm~="position-right"]{
+    float: right;
+  }
+  [mod-if-screen-sm~="position-important-right"]{
+    float: right !important;
+  }
+  [mod-if-screen-sm~="position-center"] {
+    float: none;
+    margin: 0 auto;
+  }
+  [mod-if-screen-sm~="position-static"]{
+    position: static;
+  }
+  [mod-if-screen-sm~="position-relative"]{
+    position: relative;
+  }
+  [mod-if-screen-sm~="position-absolute"]{
+    position: absolute;
+  }
+  [mod-if-screen-sm~="position-absolute-top"]{
+    position: absolute;
+    top: 0;
+  }
+  [mod-if-screen-sm~="position-absolute-right"]{
+    position: absolute;
+    right: 0;
+  }
+  [mod-if-screen-sm~="position-absolute-bottom"]{
+    position: absolute;
+    bottom: 0;
+  }
+  [mod-if-screen-sm~="position-fixed"]{
+    position: fixed;
+  }
+  [mod-if-screen-sm~="position-fixed-all"]{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    transform: translateZ(0);
+  }
+  [mod-if-screen-sm~="position-fixed-top"]{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    transform: translateZ(0);
+  }
+  [mod-if-screen-sm~="position-fixed-bottom"]{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    transform: translateZ(0);
+  }
+  [mod-if-screen-sm~="position-fixed-left"]{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    transform: translateZ(0);
+  }
+  [mod-if-screen-sm~="position-fixed-right"]{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    transform: translateZ(0);
+  }
+
+}
+
+/* extra small xs */
+
+@media (max-width: 748px){
+
+  /* -- screen xs - position -- */
+
+  [mod-if-screen-xs~="position-left"]{
+    float: left;
+  }
+  [mod-if-screen-xs~="position-important-left"]{
+    float: left !important;
+  }
+  [mod-if-screen-xs~="position-right"]{
+    float: right;
+  }
+  [mod-if-screen-xs~="position-important-right"]{
+    float: right !important;
+  }
+  [mod-if-screen-xs~="position-center"] {
+    float: none;
+    margin: 0 auto;
+  }
+  [mod-if-screen-xs~="position-static"]{
+    position: static;
+  }
+  [mod-if-screen-xs~="position-relative"]{
+    position: relative;
+  }
+  [mod-if-screen-xs~="position-absolute"]{
+    position: absolute;
+  }
+  [mod-if-screen-xs~="position-absolute-top"]{
+    position: absolute;
+    top: 0;
+  }
+  [mod-if-screen-xs~="position-absolute-right"]{
+    position: absolute;
+    right: 0;
+  }
+  [mod-if-screen-xs~="position-absolute-bottom"]{
+    position: absolute;
+    bottom: 0;
+  }
+  [mod-if-screen-xs~="position-fixed"]{
+    position: fixed;
+  }
+  [mod-if-screen-xs~="position-fixed-all"]{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    transform: translateZ(0);
+  }
+  [mod-if-screen-xs~="position-fixed-top"]{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    transform: translateZ(0);
+  }
+  [mod-if-screen-xs~="position-fixed-bottom"]{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    transform: translateZ(0);
+  }
+  [mod-if-screen-xs~="position-fixed-left"]{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    transform: translateZ(0);
+  }
+  [mod-if-screen-xs~="position-fixed-right"]{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    transform: translateZ(0);
+  }
+
+}
+
+/* extra extra small */
+
+@media (max-width: 480px){
+  
+  /* -- screen xs - position -- */
+
+  [mod-if-screen-xxs~="position-left"]{
+    float: left;
+  }
+  [mod-if-screen-xxs~="position-important-left"]{
+    float: left !important;
+  }
+  [mod-if-screen-xxs~="position-right"]{
+    float: right;
+  }
+  [mod-if-screen-xxs~="position-important-right"]{
+    float: right !important;
+  }
+  [mod-if-screen-xxs~="position-center"] {
+    float: none;
+    margin: 0 auto;
+  }
+  [mod-if-screen-xxs~="position-static"]{
+    position: static;
+  }
+  [mod-if-screen-xxs~="position-relative"]{
+    position: relative;
+  }
+  [mod-if-screen-xxs~="position-absolute"]{
+    position: absolute;
+  }
+  [mod-if-screen-xxs~="position-absolute-top"]{
+    position: absolute;
+    top: 0;
+  }
+  [mod-if-screen-xxs~="position-absolute-right"]{
+    position: absolute;
+    right: 0;
+  }
+  [mod-if-screen-xxs~="position-absolute-bottom"]{
+    position: absolute;
+    bottom: 0;
+  }
+  [mod-if-screen-xxs~="position-fixed"]{
+    position: fixed;
+  }
+  [mod-if-screen-xxs~="position-fixed-all"]{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    transform: translateZ(0);
+  }
+  [mod-if-screen-xxs~="position-fixed-top"]{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    transform: translateZ(0);
+  }
+  [mod-if-screen-xxs~="position-fixed-bottom"]{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    transform: translateZ(0);
+  }
+  [mod-if-screen-xxs~="position-fixed-left"]{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    transform: translateZ(0);
+  }
+  [mod-if-screen-xxs~="position-fixed-right"]{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    transform: translateZ(0);
+  }
+
+}

@@ -1,0 +1,192 @@
+/*
+  @about Modulr.css
+  -----------------------------------------
+  @desc: Pure Css Position Module
+  @author: Alan Museljic
+  @git: https://github.com/ModulrCSS/position
+  @source: http://www.getmodulr.com/css/position
+  ------------------------------------------------
+  @uses: modulr/position/*
+\-------------------------------------------------*/
+
+/* 
+  @property: float
+  @desc: floats an element to the left
+*/
+
+[mod-position~="left"]{
+  float: left;
+}
+
+/* 
+  @property: float
+  @desc: floats an element to the left !important
+*/
+
+[mod-position~="important-left"]{
+  float: left !important;
+}
+
+/* 
+  @property: float
+  @desc: floats an element to the right
+*/
+
+[mod-position~="right"]{
+  float: right;
+}
+
+/* 
+  @property: float
+  @desc: floats an element to the right !important
+*/
+
+[mod-position~="important-right"]{
+  float: right !important;
+}
+
+/* 
+  @property: margin
+  @desc: centers an element
+*/
+
+[mod-position~="center"] {
+  float: none;
+  margin: 0 auto;
+}
+
+/* 
+  @property: position
+  @desc: adds static position to an element
+*/
+
+[mod-position~="static"]{
+  position: static;
+}
+
+/* 
+  @property: position
+  @desc: adds relative position to an element
+*/
+
+[mod-position~="relative"]{
+  position: relative;
+}
+
+/* 
+  @property: position
+  @desc: adds absolute position to an element
+*/
+[mod-position~="absolute"]{
+  position: absolute;
+}
+
+/* 
+  @property: position
+  @desc: adds absolute top position to an element
+*/
+
+[mod-position~="absolute-top"]{
+  position: absolute;
+  top: 0;
+}
+
+/* 
+  @property: position
+  @desc: adds absolute right position to an element
+*/
+
+[mod-position~="absolute-right"]{
+  position: absolute;
+  right: 0;
+}
+
+/* 
+  @property: position
+  @desc: adds absolute bottom position to an element
+*/
+
+[mod-position~="absolute-bottom"]{
+  position: absolute;
+  bottom: 0;
+}
+
+/* 
+  @property: position
+  @desc: adds fixed position an element
+*/
+
+[mod-position~="fixed"]{
+  position: fixed;
+}
+
+/* 
+  @property: position
+  @desc: adds fixed all position an element
+*/
+
+[mod-position~="fixed-all"]{
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1000;
+  transform: translateZ(0);
+}
+
+/* 
+  @property: position
+  @desc: adds fixed top position an element
+*/
+
+[mod-position~="fixed-top"]{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  transform: translateZ(0);
+}
+
+/* 
+  @property: position
+  @desc: adds fixed bottom position an element
+*/
+
+[mod-position~="fixed-bottom"]{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1000;
+  transform: translateZ(0);
+}
+
+/* 
+  @property: position
+  @desc: adds fixed left position an element
+*/
+
+[mod-position~="fixed-left"]{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  transform: translateZ(0);
+}
+
+/* 
+  @property: position
+  @desc: adds fixed right position an element
+*/
+
+[mod-position~="fixed-right"]{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1000;
+  transform: translateZ(0);
+}

@@ -1,0 +1,24 @@
+{
+  "name": "modulr-position",
+  "homepage": "https://github.com/ModulrCSS/position",
+  "authors": [
+    "uloga <wpnemesis@gmail.com>"
+  ],
+  "description": "Modulr.css Position Module ( applies position to elements )",
+  "main": "",
+  "keywords": [
+    "position",
+    "modulr",
+    "css3",
+    "html5",
+    "boostrap"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
